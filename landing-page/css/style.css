@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bgPrimary{
+    background: #F2D5C4;
+}
+
+.bgSecondary{
+    background: #FEF6F0;
+}
+
+.bgThird{
+    background: #FFFBF7;
+}
+
+nav{
+    display: flex;
+    align-items: center; /*alinha na vertical*/
+    justify-content: space-between; /*centraliza na página*/
+    height: 60px;
+    padding: 0 45px;
+}
+
+nav h3{
+    font-size: 2rem; /*é igual a 32px;*/
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    color: #463232;
+}
+
+.imgFundo{
+    background-image: url('../img/background-image.jpg');
+    background-size: contain;
+    background-position: center;
+    height: 650px;
+    background-repeat: no-repeat;
+}
+
+.detalhes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 400px;
+    width: 25%;
+    padding-left: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.detalhes input{
+    width: 80%;
+    height: 40px;
+    padding: 0 16px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.detalhes input:focus{
+    outline: none;
+}
+
+.detalhes button{
+    width: 60%;
+    height: 60px;
+    background: #463232;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+}
+
+.empresas{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 0;
+}
+
+.produtos{
+    display: flex;
+    justify-content: space-evenly;
+    height: 650px;
+}
+
+.produtoUnico{
+    font-family: 'Poppins', sans-serif;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#comprar{
+    width: 30%;
+    height: 50px;
+    background: #463232;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+}
+
+#detalhes{
+    width: 30%;
+    height: 50px;
+    background: #FFF;
+    font-family: 'Poppins', sans-serif;
+    color: #463232;
+    font-size: 1.3rem;
+    border: 1px solid #463232;
+    outline: none;
+}
+
+#lermais{
+    width: 30%;
+    height: 50px;
+    background: #FFF;
+    font-family: 'Poppins', sans-serif;
+    color: #463232;
+    font-size: 1.3rem;
+    border: 1px solid #463232;
+    outline: none;
+}
+
+
+
+
