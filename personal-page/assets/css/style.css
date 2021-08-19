@@ -1,53 +1,111 @@
-.center{
-    text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+.center {
+  text-align: center;
 }
-.justify{
-    text-align: justify;
+.justify {
+  text-align: justify;
 }
 .container {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
- }  
- 
- #menu li {
-    display: inline;
-    padding: 15px;
- }
- 
- #menu li a {
-    text-decoration: none;
-    color: #546de5;
-    font-size: 20px;
- }
- 
- #menu li a:hover {
-    color: grey;
- }
- 
- .p-30 {
-    padding: 30px;
- }
- 
- .br-50 {
-    border-radius: 50%;
- }
- 
- .wh-300{
-    width: 300px;
-    height: 300px;
- }
- 
- .tm-social {
-    width: 50px;
-    height: 50px;
- }
- 
- .mb-50{
-    margin-bottom: 50px;
- }
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
 
- .ml-50{
-    margin-left: 50px;
- }
+#menu li {
+  display: inline;
+  padding: 15px;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: #1a0c9b;
+  font-size: 27px;
+}
+
+#menu li a:hover {
+  color: grey;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.pl-30{
+   padding-left: 30px;
+}
+
+.pb-40{
+   padding-bottom: 40px;
+}
+
+.br-50 {
+  border-radius: 50%;
+}
+
+.wh300{
+   height: 300px;
+   width: 300px;
+   border-radius: 20%;
+}
+
+.border {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.tm-social {
+  width: 50px;
+  height: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mt-100{
+   margin-top: 100px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.margin50{
+   margin: 50px;
+}
+
+.marginrl500{
+   margin-top: 40px;
+   margin-right: 500px;
+   margin-left: 500px;
+}
+
+.pl-30{
+   padding-left: 30px;
+}
+
+.pr-30{
+   padding-right: 30px;
+}
+
+.fs20 {
+  font-size: 20px;
+}
+
+.fs50{
+   font-size: 30px;
+}
+
+.farchitects {
+  font-family: "Architects Daughter", sans-serif;
+}
+
+.textuc {
+  text-transform: uppercase;
+}
+
+.textn{
+   font-style: oblique;
+}
